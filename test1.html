@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/style.css">
+   <!-- Latest compiled and minified CSS -->
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+   <!-- Optional theme -->
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous"> 
+
+  <script src="https://cdn.firebase.com/js/client/2.4.0/firebase.js"></script>
+<script src="js/test1.js"></script>
+  <script type="text/javascript" src="js/validation.js"></script>
+</head>
+<body>
+
+<div class="container text-center header">
+  <p>SEARS HOLDINGS </p>
+  <p>INDIA</p>
+</div>
+
+  <div class="container">
+       <section>
+			 <div class="row">
+			     
+				 <div>
+				     <h1>Latest News</h1>
+                     <div class="outerdiv" id="odiv"><h4 id="head11"></h4><div id="div11"></div></div>
+				 </div>
+				 
+			 </div>
+	   </section> 
+   </div>
+
+
+<div class="container  footer footer1">
+       <section>
+			 <div class="row">
+			      <div class="col-lg-1 ">
+				     
+				 </div>
+			     <div class="col-lg-4 ">
+				     <span class="innerleft">
+                         <h3>Sears Address:</h3>
+                         <span class="glyphicon glyphicon-envelope" aria-hidden="true">  info@searshc.com</span><br>
+                         <span class="glyphicon glyphicon-home " aria-hidden="true"><span class="address">  7th Floor, Wing C,, EON Free Zone, Kharadi, Pune, Maharashtra 411014</span></span><br>
+                         <span class="glyphicon glyphicon-phone-alt" aria-hidden="true">   0206478237  </span><br>
+                         <span class="glyphicon glyphicon-copyright-mark" aria-hidden="true">  Copyright  </span>  
+                     </span>
+				 </div>
+				 <div class="col-lg-1 ">
+				     
+				 </div>
+				  <div class="col-lg-5">
+				     <span class="innerright">
+                         <h3>Contact:</h3><form name="fname" onsubmit="return validateForm()">
+        
+			             <p><td><input type="email" name="email" id="email" placeholder="Email" ></p>
+		 	             <p><input type="text" name="uname" id="uname" placeholder="Name"></p>
+			             <p><textarea rows=3 cols=21 name="msg" id="msg" placeholder="Enter your message.."></textarea></p>
+			
+		                  <p><input type=submit value="Submit" style="color:black;"></p>
+		
+		                 <p id="output"></p></form>
+                     </span>
+				 </div>
+				 <div class="col-lg-1 ">
+				     
+				 </div>
+				 
+			 </div>
+	   </section> 
+   </div>
+</body>
+</html>
